@@ -1,8 +1,7 @@
 <?php
-//需加入模組語系
-define('_TAD_NEED_TADTOOLS', '需要 tadtools 模組，可至<a href="http://campus-xoops.tn.edu.tw/modules/tad_modules/index.php?module_sn=1" target="_blank">XOOPS輕鬆架</a>下載。');
+xoops_loadLanguage('main', 'tadtools');
 
-define('_MD_TADLINK_SMNAME1', '好站連結');
+define('_MD_TADLINK_HOME', '所有連結');
 
 //index.php
 define('_MD_TADLINK_LINK_SN', '連結編號');
@@ -35,3 +34,4 @@ define('_MD_TADLINK_BACK', '回上頁');
 define('_MD_TADLINK_SELECT_ALL', '全選');
 define('_MD_TADLINK_DRAG_SORT', '可直接拖曳排序');
 define('_MD_TADLINK_OVERDUE', '過期');
+define('_MD_TADLINK_UNCATEGORIZED', '未分類');
